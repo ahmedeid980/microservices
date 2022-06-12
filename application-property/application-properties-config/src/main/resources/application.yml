@@ -1,0 +1,6 @@
+server:
+  port: 8030
+
+limit-service:
+  minimum: 12
+  maximum: 10001
