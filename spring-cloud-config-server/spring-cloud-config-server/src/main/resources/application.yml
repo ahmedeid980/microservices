@@ -8,4 +8,4 @@ spring:
     config:
       server:
         git:
-          uri: D:\\test\\Microservices-Course\\spring-cloud-config-server\\git-config
+          uri: file:///D:/test/Microservices-Course/spring-cloud-config-server/git-config/
