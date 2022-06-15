@@ -1,0 +1,14 @@
+
+server:
+  port: 8032
+
+spring:
+  application:
+    name: LogAppService
+
+resilience4j.retry:
+  instances:
+    logService:
+      maxAttempts: 2
+      waitDuration: 1s
+      enableExponentialBackoff: true
