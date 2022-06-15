@@ -1,10 +1,10 @@
-package com.microservices.springcloudconfigserver;
+package com.confiuration.configclientappinfo;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class SpringCloudConfigServerApplicationTests {
+class ConfigClientAppInfoApplicationTests {
 
 	@Test
 	void contextLoads() {

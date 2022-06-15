@@ -1,0 +1,8 @@
+server:
+  port: 8031
+
+spring:
+  application:
+    name: appclient
+  config:
+    import: optional:configserver:http://localhost:8030

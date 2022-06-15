@@ -4,3 +4,20 @@ server:
 limit-service:
   minimum: 12
   maximum: 10001
+
+spring:
+  cloud:
+    config:
+      profile: dev
+  application:
+    name: default-config
+  config:
+    import: optional:configserver:http://localhost:8031
+
+
+
+#    spring:
+#      cloud:
+#        config:
+#          uri: http://localhost:8031/
+#          profile: default
